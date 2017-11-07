@@ -1,0 +1,14 @@
+{
+	"extends": "tslint-xo",
+	"rules": {
+		"no-import-side-effect": false,
+		"no-stateless-class": false,
+		"no-floating-promises": false,
+		"no-unnecessary-class": false,
+		"no-implicit-dependencies": false,
+		"no-unused-variable": false,
+		"no-unused": false,
+		"strict-type-predicates": false,
+		"only-arrow-functions": false
+	}
+}
