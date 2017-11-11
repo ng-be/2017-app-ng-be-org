@@ -1,10 +1,10 @@
 import {Component} from '@angular/core';
 
-import {TabsPage} from '../pages/tabs/tabs';
+import {HomeComponent} from './home/home.component';
 
 @Component({
-	templateUrl: 'app.html'
+	templateUrl: 'app.component.html'
 })
 export class MyApp {
-	rootPage: any = TabsPage;
+	rootPage: any = HomeComponent;
 }

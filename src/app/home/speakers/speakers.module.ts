@@ -1,17 +1,17 @@
 import {NgModule} from '@angular/core';
 import {IonicModule} from 'ionic-angular';
 
-import {AboutComponent} from './containers/about/about.component';
+import {SpeakersComponent} from './containers/speakers/speakers.component';
 
 @NgModule({
 	imports: [
 		IonicModule
 	],
 	declarations: [
-		AboutComponent
+		SpeakersComponent
 	],
 	entryComponents: [
-		AboutComponent
+		SpeakersComponent
 	]
 })
-export class AboutModule {}
+export class SpeakersModule {}

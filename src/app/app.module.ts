@@ -6,30 +6,22 @@ import {AngularFireModule} from 'angularfire2';
 import {firebaseConfig} from './app.config';
 
 import {MyApp} from './app.component';
-import {TabsPage} from '../pages/tabs/tabs';
-
-// Features
-import {AboutModule} from '../pages/about';
-import {ContactModule} from '../pages/contact';
-import {HomeModule} from '../pages/home';
+import {HomeModule} from './home/home.module';
+import {HomeComponent} from './home/home.component';
 
 @NgModule({
 	declarations: [
-		MyApp,
-		TabsPage
+		MyApp
 	],
 	imports: [
 		BrowserModule,
 		IonicModule.forRoot(MyApp),
 		AngularFireModule.initializeApp(firebaseConfig),
-		HomeModule,
-		ContactModule,
-		AboutModule
+		HomeModule
 	],
 	bootstrap: [IonicApp],
 	entryComponents: [
-		MyApp,
-		TabsPage
+		MyApp
 	],
 	providers: [
 		{provide: ErrorHandler, useClass: IonicErrorHandler}

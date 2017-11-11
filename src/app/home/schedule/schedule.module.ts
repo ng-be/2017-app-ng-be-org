@@ -1,17 +1,17 @@
 import {NgModule} from '@angular/core';
 import {IonicModule} from 'ionic-angular';
 
-import {HomeComponent} from './containers/home/home.component';
+import {ScheduleComponent} from './containers/schedule/schedule.component';
 
 @NgModule({
 	imports: [
 		IonicModule
 	],
 	declarations: [
-		HomeComponent
+		ScheduleComponent
 	],
 	entryComponents: [
-		HomeComponent
+		ScheduleComponent
 	]
 })
-export class HomeModule {}
+export class ScheduleModule {}
