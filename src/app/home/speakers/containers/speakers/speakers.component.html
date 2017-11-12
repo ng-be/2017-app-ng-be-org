@@ -7,5 +7,13 @@
 </ion-header>
 
 <ion-content padding>
-	<h2>Speakers page</h2>
+	<ion-spinner
+		*ngIf="loading$ | async">
+	</ion-spinner>
+
+	<speaker
+		*ngFor="let speaker of speakers$ | async"
+		[speaker]="speaker"
+		(contact)="openContactPage($event)">
+	</speaker>
 </ion-content>

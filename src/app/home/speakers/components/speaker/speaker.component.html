@@ -1,0 +1,34 @@
+<ion-card>
+	<ion-item>
+		<ion-avatar item-start>
+			<img [src]="speaker.picture">
+		</ion-avatar>
+		<h2>{{ speaker.firstName }} {{ speaker.name }}</h2>
+		<p>{{ speaker.title }}</p>
+	</ion-item>
+
+	<ion-card-content>
+		<p>{{ speaker.description }}</p>
+	</ion-card-content>
+
+	<ion-row *ngIf="speaker.contact">
+		<ion-col col-6>
+			<button
+				*ngIf="speaker.contact.twitter"
+				(click)="onContact('twitter')"
+				ion-button icon-left clear small>
+				<ion-icon name="logo-twitter"></ion-icon>
+				<div>@{{ speaker.contact.twitter }}</div>
+			</button>
+		</ion-col>
+		<ion-col col-6>
+			<button
+				*ngIf="speaker.contact.website"
+				(click)="onContact('website')"
+				ion-button icon-left clear small>
+				<ion-icon name="link"></ion-icon>
+				<div>{{ speaker.contact.website.title }}</div>
+			</button>
+		</ion-col>
+	</ion-row>
+</ion-card>

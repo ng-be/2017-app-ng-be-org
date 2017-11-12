@@ -1,0 +1,172 @@
+{
+	"speakers": [
+		{
+			"name": "Precht",
+			"firstName": "Pascal",
+			"title": "Trainer at @thoughtram, GDE",
+			"description": "Pascal is a front-end engineer and an Angular Developer Expert nominated by Google. He created the angular-translate module, is an Angular 2 contributor and also part of the Angular 2 Docs Authoring team.",
+			"picture": "https://ng-be.org/components/conference-day/img/pascal-precht.jpg",
+			"contact": {
+				"twitter": "PascalPrecht",
+				"website": {
+					"title": "Thoughtram",
+					"url": "http://thoughtram.io/"
+				}
+			}
+		},
+		{
+			"name": "Motto",
+			"firstName": "Todd",
+			"title": "Founder of Ultimate Angular, GDE",
+			"description": "JavaScript, Angular, React, conference speaker. Developer Expert at Google, open source lover.",
+			"picture": "https://ng-be.org/components/conference-day/img/todd-motto.jpg",
+			"contact": {
+				"twitter": "toddmotto",
+				"website": {
+					"title": "Ultimate Angular",
+					"url": "https://ultimateangular.com/"
+				}
+			}
+		},
+		{
+			"name": "De Ryck",
+			"firstName": "Philippe",
+			"title": "Trainer in Web Security",
+			"description": "Philippe De Ryck is a professional speaker and trainer on software security and web security. Since he obtained his PhD at the imec-DistriNet research group (KU Leuven, Belgium), he has been running the group's Web Security Training program, which ensures a sustainable knowledge transfer of the group’s security expertise towards practitioners.",
+			"picture": "https://ng-be.org/components/conference-day/img/philippe-deryck.jpg",
+			"contact": {
+				"twitter": "philippederyck",
+				"website": {
+					"title": "websec.be",
+					"url": "https://www.websec.be/"
+				}
+			}
+		},
+		{
+			"name": "Elm",
+			"firstName": "Dominic",
+			"title": "Trainer at Thoughtram",
+			"description": "Dominic is trainer at Thoughtram and co-founder of MachineLabs.",
+			"picture": "https://ng-be.org/components/conference-day/img/dominic-elm.jpg",
+			"contact": {
+				"twitter": "elmd_",
+				"website": {
+					"title": "Thoughtram",
+					"url": "http://thoughtram.io/"
+				}
+			}
+		},
+		{
+			"name": "Steyer",
+			"firstName": "Manfred",
+			"title": "Freelance trainer and consultant, GDE",
+			"description": "Trainer and Consultant with focus on Angular. Writes for O'Reilly, Hanser, windows.developer and Heise Developer. Regularly speaks at conferences.",
+			"picture": "https://ng-be.org/components/conference-day/img/manfred-steyer.jpg",
+			"contact": {
+				"twitter": "ManfredSteyer",
+				"website": {
+					"title": "Software Architekt",
+					"url": "https://www.softwarearchitekt.at/index.aspx"
+				}
+			}
+		},
+		{
+			"name": "Strumpflohner",
+			"firstName": "Juri",
+			"title": "Software Architect, instructor at Egghead.io",
+			"description": "Juri is a Software Architect, JavaScript coder, blogger, instructor at Egghead.io and martial arts practitioner",
+			"picture": "https://ng-be.org/components/conference-day/img/juri-strumpflohner.jpg",
+			"contact": {
+				"twitter": "juristr",
+				"website": {
+					"title": "juristr.com",
+					"url": "https://juristr.com"
+				}
+			}
+		},
+		{
+			"name": "Knight",
+			"firstName": "Aimee",
+			"title": "Software engineer at Warner Bros.",
+			"description": "Aimee is a former figure skater and Angular Air panelist. She is currently working as a software engineer at Warner Bros.",
+			"picture": "https://ng-be.org/components/conference-day/img/aimee-knight.jpg",
+			"contact": {
+				"twitter": "Aimee_Knight",
+				"website": {
+					"title": "aimeemarieknight.com",
+					"url": "http://www.aimeemarieknight.com/"
+				}
+			}
+		},
+		{
+			"name": "Yönet",
+			"firstName": "Ayşegül",
+			"title": "Angular consultant at Nrwl.io, GDE",
+			"description": "Ayşegül is a Javascript developer focusing on AngularJS and data visualization. She is a Developer Expert at Google, an active conference speaker and recently joined Victor Savkin and Jeff Cross at Nrwl.io.",
+			"picture": "https://ng-be.org/components/conference-day/img/aysegul-yonet.jpg",
+			"contact": {
+				"twitter": "AysSomething",
+				"website": {
+					"title": "Nrwl.io",
+					"url": "https://nrwl.io"
+				}
+			}
+		},
+		{
+			"name": "Hussain",
+			"firstName": "Asim",
+			"title": "Cloud developer advocate @Microsoft",
+			"description": "Asim is a conference speaker, published author, passionate teacher and cloud developer advocate @Microsoft",
+			"picture": "https://ng-be.org/components/conference-day/img/asim-hussain.png",
+			"contact": {
+				"twitter": "jawache",
+				"website": {
+					"title": "codecraft.tv",
+					"url": "https://codecraft.tv/"
+				}
+			}
+		},
+		{
+			"name": "Shaked",
+			"firstName": "Uri",
+			"title": "GDE",
+			"description": "Uri regularly speaks about Web and IoT-related topics around the world. He works part-time for BlackBerry, maintains several open-source projects and dances Salsa.",
+			"picture": "https://ng-be.org/components/conference-day/img/uri-shaked.jpg",
+			"contact": {
+				"twitter": "UriShaked",
+				"website": {
+					"title": "Blog",
+					"url": "https://medium.com/@urish"
+				}
+			}
+		},
+		{
+			"name": "Salnikov",
+			"firstName": "Maxim",
+			"title": "Front-end Engineer, GDE",
+			"description": "Maxim is a Web front-end engineer from Oslo and a Google Developer Expert in Web technologies & IoT. He is active as a public tech speaker & trainer and founder of Mobile Era & ngVikings.",
+			"picture": "https://ng-be.org/components/conference-day/img/maxim-salnikov.jpg",
+			"contact": {
+				"twitter": "webmaxru",
+				"website": {
+					"title": "Blog",
+					"url": "https://medium.com/@webmaxru"
+				}
+			}
+		},
+		{
+			"name": "Ogloblinsky",
+			"firstName": "Vincent",
+			"title": "Front-end Architect",
+			"description": "Vincent is a trainer, speaker, father and Front-end Architect from France.",
+			"picture": "https://ng-be.org/components/conference-day/img/vincent-ogloblinsky.jpg",
+			"contact": {
+				"twitter": "vogloblinsky",
+				"website": {
+					"title": "Website",
+					"url": "http://www.vincentogloblinsky.com/"
+				}
+			}
+		}
+	]
+}

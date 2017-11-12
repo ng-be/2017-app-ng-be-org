@@ -15,7 +15,7 @@ import {SpeakersComponent} from './speakers/index';
 			<ion-tab
 				[root]="tab2Root"
 				tabTitle="Speakers"
-				tabIcon="information-circle">
+				tabIcon="people">
 			</ion-tab>
 		</ion-tabs>
 	`

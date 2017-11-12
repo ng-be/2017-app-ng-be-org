@@ -1,6 +1,9 @@
 import {NgModule, ErrorHandler} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
+import {StoreModule} from '@ngrx/store';
+import {StoreDevtoolsModule} from '@ngrx/store-devtools';
 import {IonicApp, IonicModule, IonicErrorHandler} from 'ionic-angular';
+import {IonicStorageModule} from '@ionic/storage';
 import {AngularFireModule} from 'angularfire2';
 
 import {firebaseConfig} from './app.config';
@@ -15,7 +18,10 @@ import {HomeComponent} from './home/home.component';
 	],
 	imports: [
 		BrowserModule,
+		StoreModule.forRoot({}),
+		StoreDevtoolsModule.instrument(),
 		IonicModule.forRoot(MyApp),
+		IonicStorageModule.forRoot(),
 		AngularFireModule.initializeApp(firebaseConfig),
 		HomeModule
 	],
