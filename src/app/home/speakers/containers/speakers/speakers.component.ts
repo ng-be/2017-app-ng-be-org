@@ -3,7 +3,7 @@ import {Subject} from 'rxjs/Subject';
 import {takeUntil} from 'rxjs/operators/takeUntil';
 import {Destroy} from 'ngx-reactivetoolkit';
 
-import {SpeakersService} from '../../services/speakers/speakers.service';
+import {SpeakersService} from '../../../shared/services/speakers/speakers.service';
 
 @Component({
 	selector: 'speakers',
@@ -25,7 +25,7 @@ export class SpeakersComponent implements OnInit, OnDestroy {
 	ngOnInit() {
 		this.speakersService.loadSpeakers()
 			.pipe(
-				takeUntil(this.destroy$)
+			takeUntil(this.destroy$)
 			)
 			.subscribe();
 	}

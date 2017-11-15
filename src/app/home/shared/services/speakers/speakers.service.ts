@@ -39,13 +39,11 @@ export class SpeakersService {
 			}
 		});
 
-		return this.db.list('speakers')
-			.valueChanges<Speaker>()
-			.pipe(
-				tap((data: Speaker[]) => {
-					this.storage.set('speakers', data);
-					this.store.dispatch(new SetSpeakers(data));
-				})
-			);
+		return this.db.list('speakers').valueChanges<Speaker>().pipe(
+			tap((data: Speaker[]) => {
+				this.storage.set('speakers', data);
+				this.store.dispatch(new SetSpeakers(data));
+			})
+		);
 	}
 }

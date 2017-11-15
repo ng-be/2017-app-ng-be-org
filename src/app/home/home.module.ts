@@ -5,6 +5,9 @@ import {IonicModule} from 'ionic-angular';
 import {ScheduleModule} from './schedule/schedule.module';
 import {SpeakersModule} from './speakers/speakers.module';
 
+// Shared module
+import {SharedModule} from './shared/shared.module';
+
 // Components
 import {HomeComponent} from './home.component';
 
@@ -12,7 +15,8 @@ import {HomeComponent} from './home.component';
 	imports: [
 		IonicModule,
 		ScheduleModule,
-		SpeakersModule
+		SpeakersModule,
+		SharedModule
 	],
 	declarations: [
 		HomeComponent

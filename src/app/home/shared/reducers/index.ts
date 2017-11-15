@@ -12,6 +12,6 @@ export const reducers: ActionReducerMap<State> = {
 };
 
 // Feature Selectors
-const selectSpeakersState = createFeatureSelector<State>('speakers');
+const selectSpeakersState = createFeatureSelector<State>('home');
 
 export const getSpeakers = createSelector(selectSpeakersState, (state: State) => state.speakers);

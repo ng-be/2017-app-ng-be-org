@@ -1,6 +1,6 @@
 import {Component, Input, Output, EventEmitter} from '@angular/core';
 
-import {Speaker} from '../../interfaces/speaker';
+import {Speaker} from '../../../shared/interfaces/speaker';
 
 @Component({
 	selector: 'speaker',
