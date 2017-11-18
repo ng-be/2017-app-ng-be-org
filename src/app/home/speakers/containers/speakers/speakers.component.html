@@ -6,14 +6,15 @@
 	</ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
 	<ion-spinner
 		*ngIf="loading$ | async">
 	</ion-spinner>
 
 	<speaker
-		*ngFor="let speaker of speakers$ | async"
+		*ngFor="let speaker of speakers$ | async; index as i;"
 		[speaker]="speaker"
+		(select)="selectSpeaker(i)"
 		(contact)="openContactPage($event)">
 	</speaker>
 </ion-content>

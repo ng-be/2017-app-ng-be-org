@@ -1,0 +1,27 @@
+.speaker-info {
+	&__header {
+		display: flex;
+		background-size: cover;
+		background-position: center;
+		height: 250px;
+
+		h3 {
+			align-self: flex-end;
+			padding: 10px;
+			margin: 0;
+			background-color: rgba(0, 0, 0, 0.6);
+			color: white;
+			width: 100%;
+			font-size: 16px;
+			font-weight: 100;
+		}
+	}
+
+	&__description {
+		padding: 10px;
+		margin: 0;
+		font-size: 16px;
+		line-height: 1.6em;
+		font-weight: 100;
+	}
+}

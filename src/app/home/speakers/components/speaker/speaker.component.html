@@ -1,4 +1,4 @@
-<ion-card>
+<ion-card (click)="onSelect()">
 	<ion-item>
 		<ion-avatar item-start>
 			<img [src]="speaker.picture">
@@ -15,7 +15,7 @@
 		<ion-col col-6>
 			<button
 				*ngIf="speaker.contact.twitter"
-				(click)="onContact('twitter')"
+				(click)="onContact('twitter', $event)"
 				ion-button icon-left clear small>
 				<ion-icon name="logo-twitter"></ion-icon>
 				<div>@{{ speaker.contact.twitter }}</div>
@@ -24,7 +24,7 @@
 		<ion-col col-6>
 			<button
 				*ngIf="speaker.contact.website"
-				(click)="onContact('website')"
+				(click)="onContact('website', $event)"
 				ion-button icon-left clear small>
 				<ion-icon name="link"></ion-icon>
 				<div>{{ speaker.contact.website.title }}</div>

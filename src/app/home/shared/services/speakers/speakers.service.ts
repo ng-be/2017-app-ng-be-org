@@ -15,10 +15,7 @@ import {Speaker} from '../../interfaces/speaker';
 
 @Injectable()
 export class SpeakersService {
-	speakers$ = this.store.select(speakers.getSpeakers).pipe(
-		publishReplay(),
-		refCount()
-	);
+	speakers$ = this.store.select(speakers.getSpeakers);
 
 	loading$ = this.speakers$.pipe(
 		map(x => !x),
@@ -31,6 +28,12 @@ export class SpeakersService {
 		private db: AngularFireDatabase,
 		private storage: Storage
 	) {}
+
+	getSpeaker(id: number) {
+		return this.speakers$.pipe(
+			map((items: Speaker[]) => items[id])
+		);
+	}
 
 	loadSpeakers() {
 		this.storage.get('speakers').then((localSpeakers: Speaker[]) => {

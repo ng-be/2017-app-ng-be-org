@@ -1,0 +1,13 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title *ngIf="speaker$ | async as speaker">
+			{{ speaker.firstName }} {{ speaker.name }}
+		</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<speaker-info
+		[speaker]="speaker$ | async">
+	</speaker-info>
+</ion-content>
