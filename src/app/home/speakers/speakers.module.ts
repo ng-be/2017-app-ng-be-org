@@ -5,9 +5,13 @@ import {AngularFireDatabaseModule} from 'angularfire2/database';
 
 import {SharedModule} from '../shared/shared.module';
 
-// Components
+// Containers
 import {SpeakersComponent} from './containers/speakers/speakers.component';
+import {SpeakersDetailComponent} from './containers/speakers-detail/speakers-detail.component';
+
+// Components
 import {SpeakerComponent} from './components/speaker/speaker.component';
+import {SpeakerInfoComponent} from './components/speaker-info/speaker-info.component';
 
 @NgModule({
 	imports: [
@@ -18,10 +22,13 @@ import {SpeakerComponent} from './components/speaker/speaker.component';
 	],
 	declarations: [
 		SpeakersComponent,
-		SpeakerComponent
+		SpeakersDetailComponent,
+		SpeakerComponent,
+		SpeakerInfoComponent
 	],
 	entryComponents: [
-		SpeakersComponent
+		SpeakersComponent,
+		SpeakersDetailComponent
 	]
 })
 export class SpeakersModule {}

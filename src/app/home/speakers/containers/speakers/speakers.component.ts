@@ -7,7 +7,7 @@ import {Destroy} from 'ngx-reactivetoolkit';
 import {Speaker} from '../../../shared/interfaces/speaker';
 
 // Components
-import {SpeakersDetailComponent} from '../../../speakers-detail/containers/speakers-detail/speakers-detail.component';
+import {SpeakersDetailComponent} from '../../containers/speakers-detail/speakers-detail.component';
 
 // Services
 import {SpeakersService} from '../../../shared/services/speakers/speakers.service';
