@@ -1,4 +1,247 @@
 {
+	"schedule": [
+		{
+			"title": "Continental Angular breakfast",
+			"description": "<p>Enjoy the continental breakfast buffet together with the speakers</p>",
+			"startDate": "2017-12-08T07:00:00+01:00",
+			"endDate": "2017-12-08T08:30:00+01:00",
+			"type": "break"
+		},
+		{
+			"title": "Opening Ceremony",
+			"startDate": "2017-12-08T08:45:00+01:00",
+			"endDate": "2017-12-08T09:00:00+01:00",
+			"type": "talk"
+		},
+		{
+			"title": "Angular Elements",
+			"startDate": "2017-12-08T09:00:00+01:00",
+			"endDate": "2017-12-08T09:30:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 0,
+					"firstName": "Pascal",
+					"name": "Precht",
+					"picture": "https://ng-be.org/components/conference-day/img/pascal-precht.jpg"
+				}
+			]
+		},
+		{
+			"title": "Building High Performance Static Website with Angular",
+			"startDate": "2017-12-08T09:35:00+01:00",
+			"endDate": "2017-12-08T10:05:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 9,
+					"firstName": "Uri",
+					"name": "Shaked",
+					"picture": "https://ng-be.org/components/conference-day/img/uri-shaked.jpg"
+				}
+			]
+		},
+		{
+			"title": "Create and publish Angular libs like a Pro",
+			"startDate": "2017-12-08T10:10:00+01:00",
+			"endDate": "2017-12-08T10:40:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 5,
+					"firstName": "Juri",
+					"name": "Strumpflohner",
+					"picture": "https://ng-be.org/components/conference-day/img/juri-strumpflohner.jpg"
+				}
+			]
+		},
+		{
+			"title": "Break with coffees, teas, juices, fresh yoghurts and fruits",
+			"endDate": "2017-12-08T11:00:00+01:00",
+			"startDate": "2017-12-08T10:40:00+01:00",
+			"type": "break"
+		},
+		{
+			"title": "Sponsor talk: ARHS",
+			"endDate": "2017-12-08T11:05:00+01:00",
+			"startDate": "2017-12-08T11:00:00+01:00",
+			"type": "sponsor"
+		},
+		{
+			"title": "Hidden Gems of TypeScript compiler",
+			"startDate": "2017-12-08T11:10:00+01:00",
+			"endDate": "2017-12-08T11:40:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 11,
+					"firstName": "Vincent",
+					"name": "Ogloblinsky",
+					"picture": "https://ng-be.org/components/conference-day/img/vincent-ogloblinsky.jpg"
+				}
+			]
+		},
+		{
+			"title": "Cookies versus tokens: a paradoxical choice",
+			"startDate": "2017-12-08T11:45:00+01:00",
+			"endDate": "2017-12-08T12:15:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 2,
+					"firstName": "Philippe",
+					"name": "De Ryck",
+					"picture": "https://ng-be.org/components/conference-day/img/philippe-deryck.jpg"
+				}
+			]
+		},
+		{
+			"title": "Sponsor giveaway: EURICOM",
+			"endDate": "2017-12-08T12:20:00+01:00",
+			"startDate": "2017-12-08T12:15:00+01:00",
+			"type": "sponsor"
+		},
+		{
+			"title": "Creating Angular Progressive Web App",
+			"startDate": "2017-12-08T12:20:00+01:00",
+			"endDate": "2017-12-08T12:40:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 10,
+					"firstName": "Maxim",
+					"name": "Salnikov",
+					"picture": "https://ng-be.org/components/conference-day/img/maxim-salnikov.jpg"
+				}
+			]
+		},
+		{
+			"title": "Lunch: fresh soup, salads, selections of cold and warm fish and meat dishes, dessert",
+			"startDate": "2017-12-08T12:40:00+01:00",
+			"endDate": "2017-12-08T14:00:00+01:00",
+			"type": "lunch"
+		},
+		{
+			"title": "Sponsor talk: ORDINA",
+			"startDate": "2017-12-08T14:00:00+01:00",
+			"endDate": "2017-12-08T14:10:00+01:00",
+			"type": "sponsor"
+		},
+		{
+			"title": "A close look to Angular's new HttpClient",
+			"startDate": "2017-12-08T14:15:00+01:00",
+			"endDate": "2017-12-08T14:45:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 4,
+					"firstName": "Manfred",
+					"name": "Steyer",
+					"picture": "https://ng-be.org/components/conference-day/img/manfred-steyer.jpg"
+				}
+			]
+		},
+		{
+			"title": "It's Not Dark Magic - Pulling Back the Curtains From Your Stylesheets",
+			"startDate": "2017-12-08T14:50:00+01:00",
+			"endDate": "2017-12-08T15:20:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 6,
+					"firstName": "Aimee",
+					"name": "Knight",
+					"picture": "https://ng-be.org/components/conference-day/img/aimee-knight.jpg"
+				}
+			]
+		},
+		{
+			"title": "How to hack an Angular app?",
+			"startDate": "2017-12-08T15:25:00+01:00",
+			"endDate": "2017-12-08T15:55:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 8,
+					"firstName": "Assim",
+					"name": "Hussain",
+					"picture": "https://ng-be.org/components/conference-day/img/asim-hussain.png"
+				}
+			]
+		},
+		{
+			"title": "Break with coffees, teas, juices, fresh yoghurts and fruits",
+			"startDate": "2017-12-08T15:55:00+01:00",
+			"endDate": "2017-12-08T16:15:00+01:00",
+			"type": "break"
+		},
+		{
+			"title": "Sponsor talk: aariXa",
+			"startDate": "2017-12-08T16:15:00+01:00",
+			"endDate": "2017-12-08T16:20:00+01:00",
+			"type": "sponsor"
+		},
+		{
+			"title": "Taming snakes with reactive streams",
+			"startDate": "2017-12-08T16:25:00+01:00",
+			"endDate": "2017-12-08T16:55:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 3,
+					"firstName": "Dominic",
+					"name": "Elm",
+					"picture": "https://ng-be.org/components/conference-day/img/dominic-elm.jpg"
+				}
+			]
+		},
+		{
+			"title": "Performant Augmented Reality for the Web",
+			"startDate": "2017-12-08T17:00:00+01:00",
+			"endDate": "2017-12-08T17:30:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 7,
+					"firstName": "Ayşegül",
+					"name": "Yönet",
+					"picture": "https://ng-be.org/components/conference-day/img/aysegul-yonet.jpg"
+				}
+			]
+		},
+		{
+			"title": "Angular Architecture: From Patterns to Implementation",
+			"startDate": "2017-12-08T17:35:00+01:00",
+			"endDate": "2017-12-08T18:05:00+01:00",
+			"type": "talk",
+			"speaker": [
+				{
+					"id": 1,
+					"firstName": "Todd",
+					"name": "Motto",
+					"picture": "https://ng-be.org/components/conference-day/img/todd-motto.jpg"
+				}
+			]
+		},
+		{
+			"title": "Conference closing ceremony",
+			"startDate": "2017-12-08T18:05:00+01:00",
+			"endDate": "2017-12-08T18:20:00+01:00",
+			"type": "talk"
+		},
+		{
+			"title": "Socialize - bar",
+			"startDate": "2017-12-08T18:05:00+01:00",
+			"endDate": "2017-12-08T18:20:00+01:00",
+			"type": "break"
+		},
+		{
+			"title": "End of conference",
+			"startDate": "2017-12-08T19:30:00+01:00",
+			"endDate": "2017-12-08T20:00:00+01:00",
+			"type": "break"
+		}
+	],
 	"speakers": [
 		{
 			"name": "Precht",
