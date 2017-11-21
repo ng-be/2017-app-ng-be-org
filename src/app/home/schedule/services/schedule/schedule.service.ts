@@ -3,6 +3,7 @@ import {Storage} from '@ionic/storage';
 import {Store} from '@ngrx/store';
 import {AngularFireDatabase} from 'angularfire2/database';
 import {tap} from 'rxjs/operators/tap';
+import {map} from 'rxjs/operators/map';
 
 import {SetSchedule} from '../../actions/schedule';
 
@@ -18,6 +19,12 @@ export class ScheduleService {
 		private db: AngularFireDatabase,
 		private storage: Storage
 	) {}
+
+	getItem(id: number) {
+		return this.schedule$.pipe(
+			map((items: ScheduleItem[]) => items[id])
+		);
+	}
 
 	loadSchedule() {
 		this.storage.get('schedule').then((localSchedule: ScheduleItem[]) => {

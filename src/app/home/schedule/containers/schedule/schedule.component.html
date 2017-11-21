@@ -8,7 +8,8 @@
 
 <ion-content padding>
 	<schedule-item
-		*ngFor="let item of schedule$ | async"
-		[item]="item">
+		*ngFor="let item of schedule$ | async; index as i;"
+		[item]="item"
+		(select)="openDetails(i)">
 	</schedule-item>
 </ion-content>
