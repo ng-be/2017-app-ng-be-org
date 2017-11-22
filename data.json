@@ -15,6 +15,7 @@
 		},
 		{
 			"title": "Angular Elements",
+			"description": "<p>In this talk we’ll take a look at experimental APIs that enable us to generate native Web Components from Angular components.</p>",
 			"startDate": "2017-12-08T09:00:00+01:00",
 			"endDate": "2017-12-08T09:30:00+01:00",
 			"type": "talk",
@@ -29,6 +30,7 @@
 		},
 		{
 			"title": "Building High Performance Static Website with Angular",
+			"description": "<p>Traditionally, AngularJS has been used for building rich single-page applications.</p><p>Nowadays, Angular has become a universal framework, running inside the browser, in the backend and even powering your mobile apps.</p><p>The new Angular version unlocks some interesting use-cases that were not previously possible. In this talk, we are going to see how to set up angular- universal together with fuse-box for building scalable, high-performance static web sites, such as a blog or a landing page that can be easily deployed to gh- pages or Firebase Hosting.</p><p>Did I mention hot-reloading, of ine support and Progressive Web Apps?</p>",
 			"startDate": "2017-12-08T09:35:00+01:00",
 			"endDate": "2017-12-08T10:05:00+01:00",
 			"type": "talk",
@@ -43,6 +45,7 @@
 		},
 		{
 			"title": "Create and publish Angular libs like a Pro",
+			"description": "<p>Libraries are the building blocks of every serious application. As such, a healthy ecosystem of reusable tools and libraries are extremely important for the success of a frontend framework.</p><p>In this talk we will learn how to contribute to the Angular ecosystem by learning how to build and release Angular libraries like a pro. We will explore their structure, learn about bundling techniques and formats and  nally about semantic versioning & continuous, automated deployment to NPM.</p>",
 			"startDate": "2017-12-08T10:10:00+01:00",
 			"endDate": "2017-12-08T10:40:00+01:00",
 			"type": "talk",
@@ -63,12 +66,14 @@
 		},
 		{
 			"title": "Sponsor talk: ARHS",
+			"description": "<p>Arηs Digital is a strong player in the domain of Digital Transformation, Digital Business Platforms, Web Development, Open Source Software Development and Business Intelligence. We apply state-of- the art Open Source technologies (Micro- services (Spring Boot, Spring Cloud), Angular (4+), ...) and consult in complex matters. We are a believer of Agile Scrum Methodology and embrace end-to end IT projects.</p><p>We continuously reach out to talented people looking for interesting projects, a great team to work in and an attractive salary package. We reach out to all organizations looking for a professional partner to deliver their IT projects and programs in time and in budget.</p><p>“Companies don’t do business with each other. Business is done between people. It’s about trust, commitment and understanding.” – Gunther Roobaert, Managing Director Arηs Digital.</p>",
 			"endDate": "2017-12-08T11:05:00+01:00",
 			"startDate": "2017-12-08T11:00:00+01:00",
 			"type": "sponsor"
 		},
 		{
 			"title": "Hidden Gems of TypeScript compiler",
+			"description": "<p>TypeScript provides a powerful compiler we use most of the time for transpiling codebase in our projects. But it also have hidden features that can help us on so many fantastical tasks. Let’s see in this talk how this compiler works, and how we can use it for statical analysis (Codelyzer, TSLint), context aware replacement, code visualization (ngrev), documentation (Compodoc, TypeDoc), or language service plugin (Angular Language Service).</p>",
 			"startDate": "2017-12-08T11:10:00+01:00",
 			"endDate": "2017-12-08T11:40:00+01:00",
 			"type": "talk",
@@ -83,6 +88,7 @@
 		},
 		{
 			"title": "Cookies versus tokens: a paradoxical choice",
+			"description": "<p>When you’re building Angular applications, you will need to  gure out how to manage your user’s sessions. Back in the days, this used to be simple. But now, there are many different options, all with speci c advantages and disadvantages. How can you make a sensible choice, and how will that impact the security of your application? This talk will lay it out for you. You will learn how to assess your past choices, and how to substantiate future decisions.</p>",
 			"startDate": "2017-12-08T11:45:00+01:00",
 			"endDate": "2017-12-08T12:15:00+01:00",
 			"type": "talk",
@@ -97,12 +103,14 @@
 		},
 		{
 			"title": "Sponsor giveaway: EURICOM",
+			"description": "<p>Euricom - a software consultancy company founded in 1999 – has a focus on high-quality coding and working together as a team.</p><p>We believe in a co-creation model by bringing talented people together on customer projects to help them craft the digital world of tomorrow.</p><p>Besides that, you will meet a team that will help you to harmonize the things in life that really matter.</p>",
 			"endDate": "2017-12-08T12:20:00+01:00",
 			"startDate": "2017-12-08T12:15:00+01:00",
 			"type": "sponsor"
 		},
 		{
 			"title": "Creating Angular Progressive Web App",
+			"description": "<p>We have at least two very interesting options to get Angular PWA. First, the native Angular Service Worker (NGSW) by Angular team, super-powered by Angular CLI and some extra ng-pwa-tools. Second, the all new framework-agnostic Workbox library by Google Chrome team. What’s easier to set up for your Angular app? What has wider functionality? What’s faster and more robust? Let’s go exploring, coding and testing! You will have 100% full overview of these two approaches after my session, but the  nal decision is only yours!”</p>",
 			"startDate": "2017-12-08T12:20:00+01:00",
 			"endDate": "2017-12-08T12:40:00+01:00",
 			"type": "talk",
@@ -123,12 +131,14 @@
 		},
 		{
 			"title": "Sponsor talk: ORDINA",
+			"description": "<p>Ordina believes in a digital world that helps people, companies and society forwards. The application of ICT plays an essential role in solving social and business issues. Thus, technology can help to create a breakthrough in making government more ef cient, in keeping care affordable and in guaranteeing secure internet transactions. As creators, architects and administrators of the digital world, we have expertise to make organisations more agile by continuously improving business processes and ICT.</p><p>First and foremost, Ordina is a people company and is one of the top ICT employers. The quality of our service is determined by the level of our professionals. For that reason we pay close attention to our personnel policy and we focus on the growth and development of employees.</p><p>With over 2,900 employees, Ordina is the largest, independent ICT-service provider in the Benelux. We are active in the  nancial services, industry, care and government sectors. That needs people who are just as dedicated and enterprising as we are. People who look beyond the technology.</p><p>Are you a fan of technical and cultural trends such as Microservices and DevOps? Do you want to help business in their transformation to cloud-native market disruptors? Are you eager to use Angular in your next project? To turn your hobby into your profession and implement end-to-end Internet of Things solutions for our customers? To participate in workshops, organised by your colleagues, or attend well-known international conferences to further enhance your level of competence as a developer? Then Ordina’s Java unit (JWorks) or Microsoft (NCore) is the ideal place for you! You will join a creative, professional and dynamic team! Feel free to discover our Accelerator program.</p>",
 			"startDate": "2017-12-08T14:00:00+01:00",
 			"endDate": "2017-12-08T14:10:00+01:00",
 			"type": "sponsor"
 		},
 		{
 			"title": "A close look to Angular's new HttpClient",
+			"description": "<p>Nearly all Angular applications must communicate with HTTP-based APIs. To make this task easier, Angular 4.3 introduced the new HttpClient.</p><p>This session looks at its possibilities. It shows how to use not only JSON but also other text-based formats like XML or CSV.</p><p>Furthermore, you will see how to deal with binary streams and how your application can get progress information when doing file up- and downloads.</p><p>In addition, we will look at Interceptors that allow to implement cross-cutting concerns like security checks, logging, or caching.</p><p>Finally, you will see how to protect from XSRF attacks and what the HttpClient holds in store for testing.</p>",
 			"startDate": "2017-12-08T14:15:00+01:00",
 			"endDate": "2017-12-08T14:45:00+01:00",
 			"type": "talk",
@@ -143,6 +153,7 @@
 		},
 		{
 			"title": "It's Not Dark Magic - Pulling Back the Curtains From Your Stylesheets",
+			"description": "<p>All too often developers are left completely puzzled when the browser renders CSS in ways they didn’t expect. It’s not dark magic though and as developers we know that computers are just parsing our instructions. While many talks discuss how to  x common bugs, this talk will focus on the why by taking a deep dive into browser internals to see how our styles are parsed and rendered.</p>",
 			"startDate": "2017-12-08T14:50:00+01:00",
 			"endDate": "2017-12-08T15:20:00+01:00",
 			"type": "talk",
@@ -157,6 +168,7 @@
 		},
 		{
 			"title": "How to hack an Angular app?",
+			"description": "<p>Thought hacking was hard? It’s not, it’s easy and I’m going to show you how! In this episode of CSI Belgium we’ll investigate a series of hacking stories and break them down step-by-step to see exactly how they did it. By the end you’ll walk away a little bit more scared and a lot more prepared with some great practices you can apply immediately to your own applications.</p>",
 			"startDate": "2017-12-08T15:25:00+01:00",
 			"endDate": "2017-12-08T15:55:00+01:00",
 			"type": "talk",
@@ -177,12 +189,14 @@
 		},
 		{
 			"title": "Sponsor talk: aariXa",
+			"description": "<p>Founded in 2005, today a growing company that chooses stability and quality over quantity. Focusing on Front-end, .NET & JAVA technologies, we de ne and optimize solutions for SME as well as for large international companies. “You’re not a number” is our key value.</p>",
 			"startDate": "2017-12-08T16:15:00+01:00",
 			"endDate": "2017-12-08T16:20:00+01:00",
 			"type": "sponsor"
 		},
 		{
 			"title": "Taming snakes with reactive streams",
+			"description": "<p>In this talk you will learn how to think reactively by implementing a snakes game without relying on any external state variables. In addition you will learn how to make use of some very common operators including scan, withLatestFrom, combineLatest etc.</p>",
 			"startDate": "2017-12-08T16:25:00+01:00",
 			"endDate": "2017-12-08T16:55:00+01:00",
 			"type": "talk",
@@ -197,6 +211,7 @@
 		},
 		{
 			"title": "Performant Augmented Reality for the Web",
+			"description": "<p>Augmented Reality is opening up new and exciting possibilities for users. Today we are able to develop pure web experiences that works on mobile devices. While it is exciting, it is a brand new technology. Creating Augmented Reality experiences involves several APIs, WebRTC, WebGL and more.</p><p>Let’s look at how we can make it easier to create Augmented Reality experiences with declarative Angular components. We will go over the performance considerations as well as the “Hello AR!” example code and resources.</p>",
 			"startDate": "2017-12-08T17:00:00+01:00",
 			"endDate": "2017-12-08T17:30:00+01:00",
 			"type": "talk",
@@ -211,6 +226,7 @@
 		},
 		{
 			"title": "Angular Architecture: From Patterns to Implementation",
+			"description": "<p>Design patterns are what drives sensible architecture, and this applies to code organisation, component and module architecture, all the way through to state management. Let’s see how they all work as individual patterns, and explore their implementation in code. Once we know how the moving pieces work, we can easily  t them together to build solid apps that head in the same direction.</p>",
 			"startDate": "2017-12-08T17:35:00+01:00",
 			"endDate": "2017-12-08T18:05:00+01:00",
 			"type": "talk",
