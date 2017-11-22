@@ -8,6 +8,7 @@
 
 <ion-content padding>
 	<schedule-item-detail
-		[item]="item$ | async">
+		[item]="item$ | async"
+		(speaker)="onSpeakerSelect($event)">
 	</schedule-item-detail>
 </ion-content>
