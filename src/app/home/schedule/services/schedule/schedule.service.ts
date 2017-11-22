@@ -33,7 +33,7 @@ export class ScheduleService {
 			}
 		});
 
-		return this.db.list('schedule').valueChanges<ScheduleItem>().pipe(
+		return this.db.list<ScheduleItem>('schedule').valueChanges().pipe(
 			tap((data: ScheduleItem[]) => {
 				this.storage.set('schedule', data);
 				this.store.dispatch(new SetSchedule(data));
