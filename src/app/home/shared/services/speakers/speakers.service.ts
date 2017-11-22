@@ -42,7 +42,7 @@ export class SpeakersService {
 			}
 		});
 
-		return this.db.list('speakers').valueChanges<Speaker>().pipe(
+		return this.db.list<Speaker>('speakers').valueChanges().pipe(
 			tap((data: Speaker[]) => {
 				this.storage.set('speakers', data);
 				this.store.dispatch(new SetSpeakers(data));
