@@ -10,7 +10,7 @@ import {MapComponent} from './map';
 			<ion-tab
 				[root]="tab1Root"
 				tabTitle="Schedule"
-				tabIcon="home">
+				tabIcon="calendar">
 			</ion-tab>
 
 			<ion-tab
