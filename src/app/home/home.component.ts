@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 
 import {ScheduleComponent} from './schedule/index';
 import {SpeakersComponent} from './speakers/index';
+import {MapComponent} from './map';
 
 @Component({
 	template: `
@@ -17,10 +18,17 @@ import {SpeakersComponent} from './speakers/index';
 				tabTitle="Speakers"
 				tabIcon="people">
 			</ion-tab>
+
+			<ion-tab
+				[root]="tab3Root"
+				tabTitle="Map"
+				tabIcon="map">
+			</ion-tab>
 		</ion-tabs>
 	`
 })
 export class HomeComponent {
 	tab1Root = ScheduleComponent;
 	tab2Root = SpeakersComponent;
+	tab3Root = MapComponent;
 }
