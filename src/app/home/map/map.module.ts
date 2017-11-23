@@ -7,6 +7,9 @@ import {MapComponent} from './containers/map/map.component';
 // Components
 import {GoogleMapComponent} from './components/google-map/google-map.component';
 
+// Services
+import {GoogleMapService} from './services/google-map/google-map.service';
+
 @NgModule({
 	imports: [
 		IonicModule
@@ -14,6 +17,9 @@ import {GoogleMapComponent} from './components/google-map/google-map.component';
 	declarations: [
 		MapComponent,
 		GoogleMapComponent
+	],
+	providers: [
+		GoogleMapService
 	],
 	entryComponents: [
 		MapComponent

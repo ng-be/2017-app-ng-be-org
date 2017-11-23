@@ -60,8 +60,8 @@
   <!-- The main bundle js is generated during the build process -->
 	<script src="build/main.js"></script>
 
-	<!-- google maps script is loaded last as to not block rendering -->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<!-- google maps script uses async and defer in order to not block the rendering process -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?callback=onGoogleMapInit"></script>
 
 </body>
 </html>

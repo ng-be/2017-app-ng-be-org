@@ -8,6 +8,14 @@
 
 <ion-content>
 	<google-map
+		*ngIf="googleMapReady$ | async"
+		(idle)="onMapIdle()"
 		[markers]="markers">
 	</google-map>
+
+	<div
+		class="google-map__static"
+		*ngIf="!(googleMapReady$ | async) || showStatic"
+		(click)="openGoogleMaps()">
+	</div>
 </ion-content>

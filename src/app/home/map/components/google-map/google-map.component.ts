@@ -1,4 +1,4 @@
-import {Component, ElementRef, ViewChild, Input} from '@angular/core';
+import {Component, ElementRef, ViewChild, Input, HostListener, ChangeDetectionStrategy, Output, EventEmitter, NgZone} from '@angular/core';
 
 declare const google: any;
 
@@ -6,11 +6,18 @@ declare const google: any;
 	selector: 'google-map',
 	template: `
 		<div class="google-map" #map></div>
-	`
+	`,
+	changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class GoogleMapComponent {
 	@Input() markers: any;
+	@Output() idle = new EventEmitter<boolean>();
+
 	@ViewChild('map') map: ElementRef;
+
+	constructor(
+		private zone: NgZone
+	) {}
 
 	ngOnInit() {
 		const map = new google.maps.Map(this.map.nativeElement, {
@@ -36,6 +43,10 @@ export class GoogleMapComponent {
 
 		google.maps.event.addListenerOnce(map, 'idle', () => {
 			this.map.nativeElement.classList.add('show-map');
+
+			this.zone.run(() => {
+				this.idle.emit(true);
+			});
 		});
 	}
 }
