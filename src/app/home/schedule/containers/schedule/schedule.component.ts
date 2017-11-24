@@ -15,6 +15,7 @@ import {ScheduleService} from '../../services/schedule/schedule.service';
 })
 export class ScheduleComponent implements OnInit, OnDestroy {
 	schedule$ = this.scheduleService.schedule$;
+	loading$ = this.scheduleService.loading$;
 	@Destroy() destroy$;
 
 	constructor(

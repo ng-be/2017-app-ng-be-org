@@ -4,6 +4,8 @@ import {Store} from '@ngrx/store';
 import {AngularFireDatabase} from 'angularfire2/database';
 import {tap} from 'rxjs/operators/tap';
 import {map} from 'rxjs/operators/map';
+import {publishReplay} from 'rxjs/operators/publishReplay';
+import {refCount} from 'rxjs/operators/refCount';
 
 import {SetSchedule} from '../../actions/schedule';
 
@@ -13,6 +15,12 @@ import {ScheduleItem} from '../../interfaces/schedule-item';
 @Injectable()
 export class ScheduleService {
 	schedule$ = this.store.select(schedule.getSchedule);
+
+	loading$ = this.schedule$.pipe(
+		map(x => !x),
+		publishReplay(1),
+		refCount()
+	);
 
 	constructor(
 		private store: Store<schedule.State>,
