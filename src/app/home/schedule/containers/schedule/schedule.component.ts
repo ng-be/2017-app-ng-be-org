@@ -8,7 +8,6 @@ import {ScheduleDetailComponent} from '../schedule-detail/schedule-detail.compon
 
 // Services
 import {ScheduleService} from '../../services/schedule/schedule.service';
-import {SpeakersService} from '../../../shared/services/speakers/speakers.service';
 
 @Component({
 	selector: 'schedule',
@@ -20,7 +19,6 @@ export class ScheduleComponent implements OnInit, OnDestroy {
 
 	constructor(
 		private scheduleService: ScheduleService,
-		private speakersService: SpeakersService,
 		private appCtrl: App
 	) {}
 
@@ -32,10 +30,6 @@ export class ScheduleComponent implements OnInit, OnDestroy {
 
 	ngOnInit() {
 		this.scheduleService.loadSchedule().pipe(
-			takeUntil(this.destroy$)
-		).subscribe();
-
-		this.speakersService.loadSpeakers().pipe(
 			takeUntil(this.destroy$)
 		).subscribe();
 	}

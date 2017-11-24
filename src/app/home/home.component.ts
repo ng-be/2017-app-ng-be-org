@@ -1,8 +1,9 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 import {ScheduleComponent} from './schedule/index';
 import {SpeakersComponent} from './speakers/index';
 import {MapComponent} from './map';
+import {SpeakersService} from './shared/services/speakers/speakers.service';
 
 @Component({
 	template: `
@@ -27,8 +28,16 @@ import {MapComponent} from './map';
 		</ion-tabs>
 	`
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
 	tab1Root = ScheduleComponent;
 	tab2Root = SpeakersComponent;
 	tab3Root = MapComponent;
+
+	constructor(
+		private speakersService: SpeakersService
+	) {}
+
+	ngOnInit() {
+		this.speakersService.loadSpeakers().subscribe();
+	}
 }

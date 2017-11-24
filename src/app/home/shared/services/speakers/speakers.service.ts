@@ -19,7 +19,7 @@ export class SpeakersService {
 
 	loading$ = this.speakers$.pipe(
 		map(x => !x),
-		publishReplay(),
+		publishReplay(1),
 		refCount()
 	);
 
@@ -46,7 +46,16 @@ export class SpeakersService {
 			tap((data: Speaker[]) => {
 				this.storage.set('speakers', data);
 				this.store.dispatch(new SetSpeakers(data));
+
+				for (const speaker of data) {
+					this.prefetch(speaker.picture);
+				}
 			})
 		);
+	}
+
+	private prefetch(url: string) {
+		const img = new Image();
+		img.src = url;
 	}
 }
