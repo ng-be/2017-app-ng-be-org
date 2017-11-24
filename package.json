@@ -50,6 +50,6 @@
     "ngx-reactivetoolkit": "^2.0.0",
     "tslint": "^5.8.0",
     "tslint-xo": "^0.3.0",
-    "typescript": "2.3.4"
+    "typescript": "^2.6.1"
   }
 }
