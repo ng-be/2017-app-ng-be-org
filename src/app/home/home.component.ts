@@ -1,37 +1,48 @@
 import {Component, OnInit} from '@angular/core';
 
-import {ScheduleComponent} from './schedule/index';
-import {SpeakersComponent} from './speakers/index';
+// Component
+import {ScheduleComponent} from './schedule';
+import {SpeakersComponent} from './speakers';
 import {MapComponent} from './map';
+import {AboutComponent} from './about';
+
+// Services
 import {SpeakersService} from './shared/services/speakers/speakers.service';
 
 @Component({
 	template: `
 		<ion-tabs>
 			<ion-tab
-				[root]="tab1Root"
+				[root]="schedule"
 				tabTitle="Schedule"
 				tabIcon="calendar">
 			</ion-tab>
 
 			<ion-tab
-				[root]="tab2Root"
+				[root]="speakers"
 				tabTitle="Speakers"
 				tabIcon="people">
 			</ion-tab>
 
 			<ion-tab
-				[root]="tab3Root"
+				[root]="map"
 				tabTitle="Map"
 				tabIcon="map">
+			</ion-tab>
+
+			<ion-tab
+				[root]="about"
+				tabTitle="About"
+				tabIcon="information-circle">
 			</ion-tab>
 		</ion-tabs>
 	`
 })
 export class HomeComponent implements OnInit {
-	tab1Root = ScheduleComponent;
-	tab2Root = SpeakersComponent;
-	tab3Root = MapComponent;
+	schedule = ScheduleComponent;
+	speakers = SpeakersComponent;
+	map = MapComponent;
+	about = AboutComponent;
 
 	constructor(
 		private speakersService: SpeakersService
