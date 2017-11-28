@@ -1,14 +1,10 @@
-/**
- * Check out https://googlechromelabs.github.io/sw-toolbox/ for
- * more info on how to use sw-toolbox to custom configure your service worker.
- */
-
-
 'use strict';
 importScripts('./build/sw-toolbox.js');
 
+const VERSION = 'v0.0.0';
+
 self.toolbox.options.cache = {
-	name: 'ionic-cache'
+	name: 'ionic-cache-' + VERSION
 };
 
 // pre-cache our key assets
@@ -18,6 +14,8 @@ self.toolbox.precache(
 		'./build/vendor.js',
 		'./build/main.css',
 		'./build/polyfills.js',
+		'./assets/img/map.png',
+		'./assets/img/ngbe-logo.svg',
 		'index.html',
 		'manifest.json'
 	]
@@ -25,6 +23,7 @@ self.toolbox.precache(
 
 // dynamically cache any other local assets
 self.toolbox.router.any('/*', self.toolbox.fastest);
+self.toolbox.router.any('/*', self.toolbox.cacheFirst, {origin: 'https://ng-be.org'});
 
 // for any other requests go to the network, cache,
 // and then only use that cached resource if your user goes offline
