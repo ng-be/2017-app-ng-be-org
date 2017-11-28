@@ -13,9 +13,10 @@ import {Speaker} from '../../../shared/interfaces/speaker';
 				<h3>{{ speaker.title }}</h3>
 			</div>
 
-			<p class="speaker-info__description">
-				{{ speaker.description }}
-			</p>
+			<div
+				class="speaker-info__description"
+				[innerHTML]="speaker.description">
+			</div>
 		</div>
 	`,
 	changeDetection: ChangeDetectionStrategy.OnPush

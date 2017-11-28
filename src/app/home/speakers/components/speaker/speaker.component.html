@@ -7,8 +7,8 @@
 		<p>{{ speaker.title }}</p>
 	</ion-item>
 
-	<ion-card-content>
-		<p>{{ speaker.description }}</p>
+	<ion-card-content
+		[innerHTML]="speaker.description">
 	</ion-card-content>
 
 	<ion-row *ngIf="speaker.contact">

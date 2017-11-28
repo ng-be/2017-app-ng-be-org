@@ -262,8 +262,8 @@
 		{
 			"name": "Precht",
 			"firstName": "Pascal",
-			"title": "Trainer at @thoughtram, GDE",
-			"description": "Pascal is a front-end engineer and an Angular Developer Expert nominated by Google. He created the angular-translate module, is an Angular 2 contributor and also part of the Angular 2 Docs Authoring team.",
+			"title": "Trainer at @thoughtram, GDE, Happy Fellow",
+			"description": "<p>Pascal is a Software Engineer and Trainer at thoughtram and founder of the MachineLabs project, with the mission to make Machine Learning accessible to everyone.</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/pascal-precht.jpg",
 			"contact": {
 				"twitter": "PascalPrecht",
@@ -276,8 +276,8 @@
 		{
 			"name": "Motto",
 			"firstName": "Todd",
-			"title": "Founder of Ultimate Angular, GDE",
-			"description": "JavaScript, Angular, React, conference speaker. Developer Expert at Google, open source lover.",
+			"title": "Owner at Ultimate Angular, GDE Angular and Web",
+			"description": "<p>Todd is a Google Developer Expert (GDE) for both Angular and Web Technologies, and was one of the first to be invited by Google to the GDE Program back in 2014. Todd has been working with Angular for over 5 years, writes technical posts on his personal blog, and he regularly talks at industry leading conferences on Angular and web.</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/todd-motto.jpg",
 			"contact": {
 				"twitter": "toddmotto",
@@ -290,8 +290,8 @@
 		{
 			"name": "De Ryck",
 			"firstName": "Philippe",
-			"title": "Trainer in Web Security",
-			"description": "Philippe De Ryck is a professional speaker and trainer on software security and web security. Since he obtained his PhD at the imec-DistriNet research group (KU Leuven, Belgium), he has been running the group's Web Security Training program, which ensures a sustainable knowledge transfer of the group’s security expertise towards practitioners.",
+			"title": "Web Security Expert",
+			"description": "<p>Philippe runs the Web Security Training program at iMinds-DistriNet Research Group, KU Leuven. Through practical, hands-on trainings, Philippe teaches about relevant threats, current state-of-practice security technologies, and upcoming technologies to keep an eye on.</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/philippe-deryck.jpg",
 			"contact": {
 				"twitter": "philippederyck",
@@ -305,7 +305,7 @@
 			"name": "Elm",
 			"firstName": "Dominic",
 			"title": "Trainer at Thoughtram",
-			"description": "Dominic is trainer at Thoughtram and co-founder of MachineLabs.",
+			"description": "<p>Dominic is a graduate in computer science and is passionate about many web technologies including Angular, Firebase, and ReactiveX. He has always been enthusiastic about teaching. In fact, Dominic devoted his thesis on the topic of enterprise gamification making the process of sharing and learning within companies fun and enjoyable for everyone. At the moment he’s a Trainer at thoughtram providing Angular trainings worldwide.</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/dominic-elm.jpg",
 			"contact": {
 				"twitter": "elmd_",
@@ -319,7 +319,7 @@
 			"name": "Steyer",
 			"firstName": "Manfred",
 			"title": "Freelance trainer and consultant, GDE",
-			"description": "Trainer and Consultant with focus on Angular. Writes for O'Reilly, Hanser, windows.developer and Heise Developer. Regularly speaks at conferences.",
+			"description": "<p>Trainer and Consultant with focus on Angular. Google Developer Expert (GDE) who writes for O’Reilly, the German Java Magazine and windows.developer. Regularly speaks at conferences.</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/manfred-steyer.jpg",
 			"contact": {
 				"twitter": "ManfredSteyer",
@@ -332,8 +332,8 @@
 		{
 			"name": "Strumpflohner",
 			"firstName": "Juri",
-			"title": "Software Architect, instructor at Egghead.io",
-			"description": "Juri is a Software Architect, JavaScript coder, blogger, instructor at Egghead.io and martial arts practitioner",
+			"title": "Trainer, Egghead Instructor, Blogger, GDE",
+			"description": "<p>Juri currently works as a software architect at R3 GIS, a company combining GIS and Angular into powerful and modern web applications. He has worked with a variety of technologies ranging from .Net, Java and Node but has a particular love for all things JavaScript and Angular.</p><p>He’s also a freelance trainer & consultant, Egghead.io instructor, blogger and technical writer. Feel free to follow him on Twitter or visit his blog.</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/juri-strumpflohner.jpg",
 			"contact": {
 				"twitter": "juristr",
@@ -347,7 +347,7 @@
 			"name": "Knight",
 			"firstName": "Aimee",
 			"title": "Software engineer at Warner Bros.",
-			"description": "Aimee is a former figure skater and Angular Air panelist. She is currently working as a software engineer at Warner Bros.",
+			"description": "<p>Aimee Knight is a former figure skater, graduate of the Nashville Software School, and a software engineer for Warner Bros. Outside of work, she’s a weekly panelist on the JavaScript Jabber podcast, and she regularly participates in a variety of others. In her spare time, she enjoys speaking at conferences, playing with new technology, running, working out, or trying the latest flavor of Kombucha. Find her, and her contagious enthusiasm on Twitter!</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/aimee-knight.jpg",
 			"contact": {
 				"twitter": "Aimee_Knight",
@@ -360,8 +360,8 @@
 		{
 			"name": "Yönet",
 			"firstName": "Ayşegül",
-			"title": "Angular consultant at Nrwl.io, GDE",
-			"description": "Ayşegül is a Javascript developer focusing on AngularJS and data visualization. She is a Developer Expert at Google, an active conference speaker and recently joined Victor Savkin and Jeff Cross at Nrwl.io.",
+			"title": "GDE, Web Technologies",
+			"description": "<p>Ayşegül is a JavaScript developer focusing on Angular, WebVR and Data Visualization. She is a Developer Expert at Google for Web Technologies/Angular and an active conference speaker. She is a Senior Angular Engineer at Narwhal Technologies (Nrwl.io). She worked as Senior Software Engineer at Autodesk Play, a 3D and VR authoring tool that is currently in beta. She enjoys teaching at a variety of non-profit organizations aiming to increase diversity in the software industry.</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/aysegul-yonet.jpg",
 			"contact": {
 				"twitter": "AysSomething",
@@ -375,7 +375,7 @@
 			"name": "Hussain",
 			"firstName": "Asim",
 			"title": "Cloud developer advocate @Microsoft",
-			"description": "Asim is a conference speaker, published author, passionate teacher and cloud developer advocate @Microsoft",
+			"description": "<p>Asim is a developer, trainer, author and speaker with over 16 years experience working for organisations such as the European Space Agency, Google and now Microsoft, where he is a Senior Cloud Developer Advocate.</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/asim-hussain.png",
 			"contact": {
 				"twitter": "jawache",
@@ -389,7 +389,7 @@
 			"name": "Shaked",
 			"firstName": "Uri",
 			"title": "GDE",
-			"description": "Uri regularly speaks about Web and IoT-related topics around the world. He works part-time for BlackBerry, maintains several open-source projects and dances Salsa.",
+			"description": "<p>Uri Shaked is a Google Developer Expert for Web Technologies. He regularly writes about Web and IoT related technologies in his Medium blog, and speaks about these topics in conferences and meetups around the world. Among his interests are reverse engineering, hardware hacking, building 3D-printed robots and games, playing music and Salsa dancing.</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/uri-shaked.jpg",
 			"contact": {
 				"twitter": "UriShaked",
@@ -402,8 +402,8 @@
 		{
 			"name": "Salnikov",
 			"firstName": "Maxim",
-			"title": "Front-end Engineer, GDE",
-			"description": "Maxim is a Web front-end engineer from Oslo and a Google Developer Expert in Web technologies & IoT. He is active as a public tech speaker & trainer and founder of Mobile Era & ngVikings.",
+			"title": "ngViking, UI Engineer, GDE",
+			"description": "<p>Maxim Salnikov is an Oslo-based Web UI Engineer and a Google Developer Expert in Web Technologies and Angular. He develops complex web applications since the end of the last century and has extensive experience with all aspects of web front-end: UX/UI prototyping, HTML/CSS/JS, main frameworks, progressive web apps.</p><p>Maxim is a founder and active contributor to two conferences: Mobile Era and ngVikings - Nordics' main conferences for mobile and Angular developers respectively. He also leads Norway's largest meetups dedicated to web front-end and mobile: Framsia, Angular Oslo, Mobile Meetup Oslo.</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/maxim-salnikov.jpg",
 			"contact": {
 				"twitter": "webmaxru",
@@ -417,7 +417,7 @@
 			"name": "Ogloblinsky",
 			"firstName": "Vincent",
 			"title": "Front-end Architect",
-			"description": "Vincent is a trainer, speaker, father and Front-end Architect from France.",
+			"description": "<p>Vincent is a Software architect in a French IT services company called SII. He likes web technologies & all APIs availables in the browser, and most of the times he uses them in (Type||Java)script. He loves to share his knowledge by giving lightning talks or mob programming sessions, training sessions on Angular or by speaking at french conferences. He also contributes to and maintains open-source projects like \"Compodoc\".</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/vincent-ogloblinsky.jpg",
 			"contact": {
 				"twitter": "vogloblinsky",
