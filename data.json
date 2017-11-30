@@ -267,6 +267,7 @@
 			"picture": "https://ng-be.org/components/conference-day/img/pascal-precht.jpg",
 			"contact": {
 				"twitter": "PascalPrecht",
+				"github": "PascalPrecht",
 				"website": {
 					"title": "Thoughtram",
 					"url": "http://thoughtram.io/"
@@ -281,6 +282,7 @@
 			"picture": "https://ng-be.org/components/conference-day/img/todd-motto.jpg",
 			"contact": {
 				"twitter": "toddmotto",
+				"github": "ToddMotto",
 				"website": {
 					"title": "Ultimate Angular",
 					"url": "https://ultimateangular.com/"
@@ -295,6 +297,7 @@
 			"picture": "https://ng-be.org/components/conference-day/img/philippe-deryck.jpg",
 			"contact": {
 				"twitter": "philippederyck",
+				"github": "PhilippeDeRyck",
 				"website": {
 					"title": "websec.be",
 					"url": "https://www.websec.be/"
@@ -309,6 +312,7 @@
 			"picture": "https://ng-be.org/components/conference-day/img/dominic-elm.jpg",
 			"contact": {
 				"twitter": "elmd_",
+				"github": "d3lm",
 				"website": {
 					"title": "Thoughtram",
 					"url": "http://thoughtram.io/"
@@ -323,6 +327,7 @@
 			"picture": "https://ng-be.org/components/conference-day/img/manfred-steyer.jpg",
 			"contact": {
 				"twitter": "ManfredSteyer",
+				"github": "manfredsteyer",
 				"website": {
 					"title": "Software Architekt",
 					"url": "https://www.softwarearchitekt.at/index.aspx"
@@ -337,6 +342,7 @@
 			"picture": "https://ng-be.org/components/conference-day/img/juri-strumpflohner.jpg",
 			"contact": {
 				"twitter": "juristr",
+				"github": "juristr",
 				"website": {
 					"title": "juristr.com",
 					"url": "https://juristr.com"
@@ -351,6 +357,7 @@
 			"picture": "https://ng-be.org/components/conference-day/img/aimee-knight.jpg",
 			"contact": {
 				"twitter": "Aimee_Knight",
+				"github": "AimeeKnight",
 				"website": {
 					"title": "aimeemarieknight.com",
 					"url": "http://www.aimeemarieknight.com/"
@@ -365,6 +372,7 @@
 			"picture": "https://ng-be.org/components/conference-day/img/aysegul-yonet.jpg",
 			"contact": {
 				"twitter": "AysSomething",
+				"github": "Yonet",
 				"website": {
 					"title": "Nrwl.io",
 					"url": "https://nrwl.io"
@@ -379,6 +387,7 @@
 			"picture": "https://ng-be.org/components/conference-day/img/asim-hussain.png",
 			"contact": {
 				"twitter": "jawache",
+				"github": "jawache",
 				"website": {
 					"title": "codecraft.tv",
 					"url": "https://codecraft.tv/"
@@ -388,11 +397,12 @@
 		{
 			"name": "Shaked",
 			"firstName": "Uri",
-			"title": "GDE",
+			"title": "GDE for Web Technologies",
 			"description": "<p>Uri Shaked is a Google Developer Expert for Web Technologies. He regularly writes about Web and IoT related technologies in his Medium blog, and speaks about these topics in conferences and meetups around the world. Among his interests are reverse engineering, hardware hacking, building 3D-printed robots and games, playing music and Salsa dancing.</p>",
 			"picture": "https://ng-be.org/components/conference-day/img/uri-shaked.jpg",
 			"contact": {
 				"twitter": "UriShaked",
+				"github": "urish",
 				"website": {
 					"title": "Blog",
 					"url": "https://medium.com/@urish"
@@ -407,6 +417,7 @@
 			"picture": "https://ng-be.org/components/conference-day/img/maxim-salnikov.jpg",
 			"contact": {
 				"twitter": "webmaxru",
+				"github": "webmaxru",
 				"website": {
 					"title": "Blog",
 					"url": "https://medium.com/@webmaxru"
@@ -421,6 +432,7 @@
 			"picture": "https://ng-be.org/components/conference-day/img/vincent-ogloblinsky.jpg",
 			"contact": {
 				"twitter": "vogloblinsky",
+				"github": "vogloblinsky",
 				"website": {
 					"title": "Website",
 					"url": "http://www.vincentogloblinsky.com/"
