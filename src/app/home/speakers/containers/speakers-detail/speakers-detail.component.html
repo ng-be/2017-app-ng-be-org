@@ -8,6 +8,7 @@
 
 <ion-content>
 	<speaker-info
-		[speaker]="speaker$ | async">
+		[speaker]="speaker$ | async"
+		(contact)="openContactPage($event)">
 	</speaker-info>
 </ion-content>

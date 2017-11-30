@@ -12,6 +12,7 @@ import {SpeakersDetailComponent} from './containers/speakers-detail/speakers-det
 // Components
 import {SpeakerComponent} from './components/speaker/speaker.component';
 import {SpeakerInfoComponent} from './components/speaker-info/speaker-info.component';
+import {SpeakerSocialRowComponent} from './components/speaker-social-row/speaker-social-row.component';
 
 @NgModule({
 	imports: [
@@ -24,7 +25,8 @@ import {SpeakerInfoComponent} from './components/speaker-info/speaker-info.compo
 		SpeakersComponent,
 		SpeakersDetailComponent,
 		SpeakerComponent,
-		SpeakerInfoComponent
+		SpeakerInfoComponent,
+		SpeakerSocialRowComponent
 	],
 	entryComponents: [
 		SpeakersComponent,

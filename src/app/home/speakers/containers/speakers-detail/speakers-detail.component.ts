@@ -14,4 +14,8 @@ export class SpeakersDetailComponent {
 		private speakersService: SpeakersService,
 		private navParams: NavParams
 	) {}
+
+	openContactPage(url: string) {
+		window.open(url, '_blank');
+	}
 }

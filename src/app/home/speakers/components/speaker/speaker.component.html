@@ -1,4 +1,4 @@
-<ion-card (click)="onSelect()">
+<ion-card class="speaker-card" (click)="onSelect()">
 	<ion-item>
 		<ion-avatar item-start>
 			<img [src]="speaker.picture">
@@ -8,27 +8,13 @@
 	</ion-item>
 
 	<ion-card-content
+		class="speaker-card__content"
 		[innerHTML]="speaker.description">
 	</ion-card-content>
 
-	<ion-row *ngIf="speaker.contact">
-		<ion-col col-6>
-			<button
-				*ngIf="speaker.contact.twitter"
-				(click)="onContact('twitter', $event)"
-				ion-button icon-left clear small>
-				<ion-icon name="logo-twitter"></ion-icon>
-				<div>@{{ speaker.contact.twitter }}</div>
-			</button>
-		</ion-col>
-		<ion-col col-6>
-			<button
-				*ngIf="speaker.contact.website"
-				(click)="onContact('website', $event)"
-				ion-button icon-left clear small>
-				<ion-icon name="link"></ion-icon>
-				<div>{{ speaker.contact.website.title }}</div>
-			</button>
-		</ion-col>
-	</ion-row>
+	<speaker-social-row
+		*ngIf="speaker.contact"
+		[social]="speaker.contact"
+		(select)="openContact($event)">
+	</speaker-social-row>
 </ion-card>

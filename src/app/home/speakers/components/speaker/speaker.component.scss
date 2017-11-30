@@ -1,5 +1,5 @@
-speaker {
-	button {
-		text-transform: none !important;
+.speaker-card {
+	&__content {
+		padding-bottom: 0;
 	}
 }

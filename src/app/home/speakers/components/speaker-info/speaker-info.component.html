@@ -1,0 +1,23 @@
+<div class="speaker-info">
+	<div
+		class="speaker-info__header"
+		[style.backgroundImage]="'url(' + speaker.picture + ')'">
+
+		<h3>{{ speaker.title }}</h3>
+	</div>
+
+	<div
+		class="speaker-info__social"
+		*ngIf="speaker.contact">
+
+		<speaker-social-row
+			[social]="speaker.contact"
+			(select)="openContact($event)">
+		</speaker-social-row>
+	</div>
+
+	<div
+		class="speaker-info__description"
+		[innerHTML]="speaker.description">
+	</div>
+</div>

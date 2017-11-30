@@ -1,0 +1,29 @@
+<ion-row class="speaker-social-row">
+	<ion-col col-4>
+		<button
+			*ngIf="social.twitter"
+			(click)="onContact('twitter', $event)"
+			ion-button icon-left clear full small>
+			<ion-icon name="logo-twitter"></ion-icon>
+			<div>Twitter</div>
+		</button>
+	</ion-col>
+	<ion-col col-4>
+		<button
+			*ngIf="social.website"
+			(click)="onContact('website', $event)"
+			ion-button icon-left clear full small>
+			<ion-icon name="link"></ion-icon>
+			<div>Website</div>
+		</button>
+	</ion-col>
+	<ion-col col-4>
+		<button
+			*ngIf="social.github"
+			(click)="onContact('github', $event)"
+			ion-button icon-left clear full small>
+			<ion-icon name="logo-github"></ion-icon>
+			<div>GitHub</div>
+		</button>
+	</ion-col>
+</ion-row>

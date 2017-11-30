@@ -15,13 +15,15 @@ export class SpeakerComponent {
 		this.select.emit(this.speaker);
 	}
 
-	onContact(type: 'twitter' | 'website', event: Event) {
+	openContact(url: string) {
+		this.contact.emit(url);
+	}
+
+	onContact(type: 'twitter' | 'website') {
 		if (type === 'twitter') {
 			this.contact.emit(`https://twitter.com/${this.speaker.contact.twitter}`);
 		} else if (type === 'website') {
 			this.contact.emit(this.speaker.contact.website.url);
 		}
-
-		event.stopPropagation();
 	}
 }
