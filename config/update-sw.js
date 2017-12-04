@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const serviceWorker = path.join(process.cwd(), 'src/service-worker.js');
+const serviceWorker = path.join(process.cwd(), 'www/service-worker.js');
 
 // Read `package.json` contents
 const pkg = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'package.json')));

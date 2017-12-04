@@ -21,7 +21,7 @@
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "lint": "tslint -p . --format stylish",
-    "preionic:build:prod": "node ./config/update-sw",
+    "ionic:build:after": "node ./config/update-sw",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve"
   },
