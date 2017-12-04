@@ -6,7 +6,9 @@
 		<span>{{ item.startDate | date:'HH:mm' }} - {{ item.endDate | date:'HH:mm' }}</span>
 	</section>
 
-	<section class="schedule-item-detail__description">
+	<section
+		class="schedule-item-detail__description"
+		*ngIf="item.description">
 		<h3>Description</h3>
 
 		<div [innerHtml]="item.description"></div>
