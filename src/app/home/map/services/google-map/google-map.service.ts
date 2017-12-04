@@ -13,7 +13,7 @@ window.onGoogleMapInit = () => {
 
 @Injectable()
 export class GoogleMapService {
-	private googleMapReady$ = new ReplaySubject();
+	private googleMapReady$ = new ReplaySubject(1);
 
 	ready$ = this.googleMapReady$.asObservable();
 
