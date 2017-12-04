@@ -9,7 +9,7 @@ const pkg = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'package.json'))
 
 // Read `service-worker.js` contents and replace the version
 let contents = fs.readFileSync(serviceWorker, 'utf8');
-contents = contents.replace(/^const VERSION = (?:.*?)$/m, `const VERSION = 'v${pkg.version}';`);
+contents = contents.replace('{{VERSION}}', `v${pkg.version}`);
 
 // Overwrite `service-worker.js`
 fs.writeFileSync(serviceWorker, contents, 'utf8');
